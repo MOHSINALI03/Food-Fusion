@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+   <style>
+
+
+button{
+
+    padding: 12px;
+    background-color: bisque;
+    font-size: 15px;
+    color: rgb(63, 60, 56);
+}
+button:hover{
+
+    box-shadow: none;
+    color: rgb(12, 12, 12);
+}
+.contact{
+
+    
+    padding: 30px;
+}
+ 
+textarea{
+    width: 225px;
+height: 90px;
+}
+   </style>
+</head>
+
+<body>
+    <nav>
+
+        <h1 class="food">
+            Food Fusion
+        </h1>
+        <br>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact </a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="#Shopping">Shoping</a>
+                <ul class="menu">
+
+                    <li>Food</li>
+                    <li>Food</li>
+                    <li>Food</li>
+                    <li>Food</li>
+                    <li>Food</li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+
+        <h1 class="main_h1">
+            Contact Us
+        </h1>
+
+
+        <section class="contact">
+            
+            <h2>Contact Us</h2>
+            <br> 
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+               <br> 
+               <br>
+                <label for="email">Email&nbsp;:</label> 
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+        <p>
+            &copy; 2024 Food Fusion
+            . All rights reserved.
+
+        </p>
+
+    </footer>
+</body>
+
+</html>
